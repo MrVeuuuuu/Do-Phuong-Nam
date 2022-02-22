@@ -1,0 +1,30 @@
+.form-group{
+    margin: 10px 2px;
+   
+}
+.form-control{
+    margin:10px 2px ;
+    padding: 5px;
+    border: none;
+    border-radius:2px;
+    width: 200px;
+    box-shadow:0 0 2px blue;
+    color: orangered;
+    display: block;
+    outline: none;
+}
+.form-control:focus{
+    box-shadow: 0 0 4px orangered;
+    color: blue;
+}
+.form-button{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px gray;  
+    outline: none;
+    padding: 5px 10px;
+}
+.form-button:focus{
+    box-shadow: 0 0 4px orangered;
+    color: orangered;
+}
